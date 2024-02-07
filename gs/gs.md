@@ -45,6 +45,10 @@ sudo apt install python3-twisted libpcap-dev libsodium-dev python3-pyroute2 pyth
 sudo apt install dh-python 
 
 ```
+```
+cd deb_dist
+sudo dpkg -i wfb-ng*.deb
+```
 
 troubleshooting 
 
