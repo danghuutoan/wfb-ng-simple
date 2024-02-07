@@ -71,3 +71,6 @@ sudo apt-get install -y iw
 Error: NetworkManager is not running.
 
 sudo systemctl start NetworkManager
+
+# rpi kernel source 
+https://github.com/RPi-Distro/rpi-source
