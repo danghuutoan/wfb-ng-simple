@@ -38,3 +38,32 @@ git submodule update --recursive
 
 # Install wfb-ng
 https://github.com/svpcom/wfb-ng/wiki/Install-from-scratch
+
+```
+sudo apt-get install virtualenv fakeroot debhelper
+sudo apt install python3-twisted libpcap-dev libsodium-dev python3-pyroute2 python3-future  python3-all python3-all-dev
+sudo apt install dh-python 
+
+```
+
+troubleshooting 
+
+```
+systemctl status wifibroadcast@drone
+journalctl -xu wifibroadcast@drone
+```
+
+```
+systemctl status wifibroadcast@gs
+journalctl -xu wifibroadcast@gs
+```
+
+install iw 
+```
+sudo apt-get install -y iw
+```
+
+
+Error: NetworkManager is not running.
+
+sudo systemctl start NetworkManager
